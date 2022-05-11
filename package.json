@@ -1,0 +1,33 @@
+{
+  "name": "leaderboard",
+  "version": "1.0.0",
+  "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "jest",
+    "build": "webpack",
+    "start": "webpack serve --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TahenyBELGUITH/LeaderBoard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TahenyBELGUITH/LeaderBoard/issues"
+  },
+  "homepage": "https://github.com/TahenyBELGUITH/LeaderBoard#readme",
+  "devDependencies": {
+    "css-loader": "^6.7.1",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.0"
+  },
+  "dependencies": {
+    "html-webpack-plugin": "^5.5.0",
+    "jest": "^28.1.0"
+  }
+}
