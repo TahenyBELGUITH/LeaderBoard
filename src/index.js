@@ -4,8 +4,8 @@ import {
   refreshBtn, form, userName, userScore,
 } from './variables.js';
 
-import {submit} from './submit.js';
-import {render} from './render.js';
+import { submit } from './submit.js';
+import { render } from './render.js';
 
 refreshBtn.addEventListener('click', (e) => {
   e.preventDefault();
