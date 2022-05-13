@@ -1,6 +1,9 @@
 # Awesome Books
 > A Microverse solo programming project on how we consume API.
 
+<img align="center" src="./src/shot.png">
+
+
 ## Built With
 
 - HTML5
