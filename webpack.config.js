@@ -10,7 +10,7 @@ module.exports = {
     publicPath: '/Full-stack-developer/',
   },
   devServer: {
-    contentBase: [`${__dirname}/src`, `${__dirname}/images`],
+    static: './dist',
   },
   module: {
     rules: [

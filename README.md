@@ -1,22 +1,12 @@
-
-# LeaderBoard
-
-> This project is suggested by Microverse where the player can store his score.
-
+# Awesome Books
+> A Microverse solo programming project on how we consume API.
 
 ## Built With
 
-- HTML
-
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-To get a local copy up and running follow these simple example steps.
+- HTML5
+- CSS
+- webpack
+- Js
 
 ### Prerequisites
 - Create Github repository
@@ -29,7 +19,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Setup
 - `Git clone https://github.com/TahenyBELGUITH/LeaderBoard.git`
-- `cd toDoListTemplate`
+- `cd LeaderBoard`
 - open file in preferred editor
 - Edit to your satisfaction
 - HTML, CSS Linter configuration - https://github.com/microverseinc/linters-config/tree/master/html-css
