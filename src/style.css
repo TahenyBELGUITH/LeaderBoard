@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@900&display=swap');
+
 *,
 *::before,
 *::after {
@@ -8,8 +10,10 @@
 
 body {
   padding: 2rem;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Cinzel Decorative', cursive;
   font-size: 30px;
+  background-color: #000;
+  color: #ff5aac;
 }
 
 .d-flex {
@@ -17,8 +21,9 @@ body {
 }
 
 .wrapper {
-  border: 1px solid black;
+  box-shadow: #ff5aac 0 1px 3px, #ff5aac 0 1px 2px;
   padding: 2rem;
+  margin: 3rem 0;
 }
 
 .refresh {
@@ -29,22 +34,23 @@ body {
 
 .refresh .header {
   justify-content: space-between;
-  width: 50%;
+  width: 100%;
   align-items: center;
 }
 
 .submit button,
 .refresh .header button {
-  border: 1px solid #000;
+  border: 1px solid #ff5aac;
   outline: none;
   display: block;
   padding: 8px;
-  background-color: #dfe;
+  background-color: #000;
   font-size: 20px;
   border-radius: 13px;
   float: right;
   margin: 1rem 0;
-  box-shadow: rgba(0, 0, 0, 0.16) 0 1px 4px, rgb(51, 51, 51) 0 0 0 3px;
+  box-shadow: #ff5aac 0 1px 4px, #ff5aac 0 0 0 3px;
+  color: #ff5aac;
 }
 
 .players-score {
@@ -57,25 +63,29 @@ body {
 
 .players-score ul li {
   padding: 12px;
+  text-align: center;
 }
 
 .players-score ul li:nth-child(even) {
-  background-color: gray;
-  color: #fff;
+  background-color: #ff5aac;
+  color: #000;
 }
 
 .submit {
   margin: 2rem;
-  width: 40%;
+  width: 42%;
   float: right;
 }
 
 .submit input {
-  box-shadow: rgba(0, 0, 0, 0.16) 0 1px 4px, rgb(51, 51, 51) 0 0 0 3px;
   padding: 8px;
-  border: 1px solid #000;
+  outline: none;
+  border: none;
+  background-color: #000;
+  border-bottom: 1px solid #ff5aac;
   width: 100%;
   margin: 1rem 0;
+  color: #ff5aac;
 }
 
 footer {
