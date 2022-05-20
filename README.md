@@ -1,4 +1,4 @@
-# Awesome Books
+# LeaderBoard
 > A Microverse solo programming project on how we consume API.
 
 <img align="center" src="./src/shot.png">
