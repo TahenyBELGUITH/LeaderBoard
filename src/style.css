@@ -96,3 +96,7 @@ footer {
   position: absolute;
   bottom: 0;
 }
+
+.input-list {
+  justify-content: space-between;
+}
