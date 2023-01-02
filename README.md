@@ -1,5 +1,7 @@
 # LeaderBoard
-> A Microverse solo programming project on how we consume API.
+The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data will be preserved thanks to the external Leaderboard API service
+
+---
 
 <img align="center" src="./src/shot.png">
 
